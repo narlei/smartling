@@ -9,14 +9,14 @@
         {
             "type": "ios",
             "authorizeContent": true,
-            "pathRegex": "(Libraries)\\/.*pt\\-BRL\\. Lproj\\W.*ll.strings",
+            "pathRegex": "(Libraries)\\/.*pt\\-BR\\.lproj\\/.*\\.strings",
             "translationPathExpression": "$foriginalFile.fullName.replaceAll('pt-BR.(proj',locale+'.Lproj')}",
             "translationCommitMessage": "[SMARTLING] Update ${originalFile.name} for ${locale}"
         },
         {
             "type": "stringsdict",
             "authorizeContent": true,
-            "pathRegex": "(Libraries)\\/.*pt\\-BRL\\. Lproj\\W.*ll.stringsdict",
+            "pathRegex": "(Libraries)\\/.*pt\\-BR\\.lproj\\/.*\\.stringsdict",
             "translationPathExpression": "$foriginalFile.fullName.replaceAll('pt-BR.(proj',locale+'.lproj')}",
             "translationCommitMessage": "[SMARTLING] Update $foriginalFile.name} for $flocale}"
         }
